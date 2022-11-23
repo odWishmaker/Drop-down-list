@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Fonts/Roboto-Bold.eot');
+    src: url('../Fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../Fonts/Roboto-Bold.woff') format('woff'),
+        url('../Fonts/Roboto-Bold.ttf') format('truetype'),
+        url('../Fonts/Roboto-Bold.svg#Roboto-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    font-family: "Roboto";
+    margin: 0 auto;
+}
+.container {
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+}
+nav {
+    margin: 10px 5px;
+    background-color: rgb(255, 94, 0);
+
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+nav ul li {
+    display:inline-block;
+    background-color: rgb(255, 94, 0);
+}
+nav a {
+    display:block;
+    color:rgb(12, 12, 12);
+    font-size:20px;
+    line-height: 30px;
+    text-decoration:none;
+}
+nav a:hover {
+    background-color: #78abf7;
+}
+nav ul ul {
+    display: none;
+	position: absolute;
+}
+nav ul li:hover ul {
+    display:block;
+}
+nav ul ul li {
+    min-width:70px;
+    display:list-item;
+}
